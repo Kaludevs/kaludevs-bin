@@ -1,0 +1,9 @@
+{
+  "extends": "../tsconfig.base.json",
+  "exclude": ["./node_modules"],
+  "compilerOptions": {
+    "outDir": "./dist",
+    "target": "ESNext",
+    "module": "commonjs"
+  }
+}
